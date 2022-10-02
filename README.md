@@ -4,7 +4,7 @@
 
 ## Preview
 
-[![Agency Preview](https://assets.startbootstrap.com/img/screenshots/themes/agency.png)](https://startbootstrap.github.io/startbootstrap-agency/)
+![agency](https://user-images.githubusercontent.com/114579121/193446865-ef500949-f3f9-4374-9c27-32d2fb7d43f5.gif)
 
 **[View Live Preview](https://startbootstrap.github.io/startbootstrap-agency/)**
 
