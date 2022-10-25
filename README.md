@@ -14,17 +14,14 @@ Download your template from here https://startbootstrap.com/theme/agency or any 
 
 Add this code at the end of index.html, immediately before /body:
 
-```javascript
+```html
+<!-- ncsedt-implement:before -->
 <div id="ncsedt-implement">
-    <link href="https://cdn.statically.io/gh/thenocoder/ncSimpleHtmlEditor/master/ncsimplehtmleditor.css" rel="stylesheet" />
-    <script src="https://cdn.statically.io/gh/thenocoder/ncSimpleHtmlEditor/master/ncsimplehtmleditor.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/TheNocoder/ncSimpleHtmlEditor@master/ncsimplehtmleditor.css">
+    <script src="https://cdn.jsdelivr.net/gh/TheNocoder/ncSimpleHtmlEditor@master/ncsimplehtmleditor.js"></script>
     <script>
-        window.addEventListener('DOMContentLoaded', function () {
-            if (!("ncSHEditor" in window)) {
-                ncSHEditor = new ncSimpleHtmlEditor();
-                ncSHEditor.start();
-            }
-        });
+        var editor = new ncSimpleHtmlEditor();
+        editor.start();
     </script>
 </div>
 ```
