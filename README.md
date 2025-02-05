@@ -1,4 +1,4 @@
-# [Editor for template content](https://github.com/TheNocoder/ncSimpleHtmlEditor)
+# [Editor for template content](https://github.com/FranBar1966/ncSimpleHtmlEditor)
 
 Allows you to edit the content of previously created templates or designs, it does not have options to change the design.
 
@@ -8,7 +8,7 @@ Allows you to edit the content of previously created templates or designs, it do
 
 ## Demo
 
-https://thenocoder.github.io/ncSimpleHtmlEditor/demo/grayscale/
+https://franbar1966.github.io/ncSimpleHtmlEditor/2/
 
 ## Basic Usage
 
