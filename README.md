@@ -1,4 +1,4 @@
-# [Editor for template content](https://github.com/FranBar1966/ncSimpleHtmlEditor)
+# [Editor for template content](https://github.com/FranBarInstance/simple-html-editor)
 
 Allows you to edit the content of previously created templates or designs, it does not have options to change the design.
 
@@ -8,7 +8,7 @@ Allows you to edit the content of previously created templates or designs, it do
 
 ## Demo
 
-https://franbar1966.github.io/ncSimpleHtmlEditor/2/
+[https://franbarinstance.github.io/simple-html-editor/demo/agency/](https://franbarinstance.github.io/simple-html-editor/demo/agency/)
 
 ## Basic Usage
 
@@ -19,13 +19,16 @@ Add this code at the end of index.html, immediately before /body:
 ```html
 <!-- ncsedt-implement:before -->
 <div id="ncsedt-implement">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/TheNocoder/ncSimpleHtmlEditor@master/ncsimplehtmleditor.css">
-    <script src="https://cdn.jsdelivr.net/gh/TheNocoder/ncSimpleHtmlEditor@master/ncsimplehtmleditor.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FranBarInstance/simple-html-editor@master/simplehtmleditor.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/FranBarInstance/simple-html-editor@master/simplehtmleditor.min.js"></script>
     <script>
-        var editor = new ncSimpleHtmlEditor();
-        editor.start();
+        window.addEventListener('DOMContentLoaded', function () {
+            var editor = new ncSimpleHtmlEditor();
+            editor.start();
+        });
     </script>
 </div>
+<!-- ncsedt-implement:end -->
 ```
 
 When you finish editing your template click on save, you get an index.html file that you must replace with the one you downloaded with the template.
@@ -34,7 +37,7 @@ And that's it!
 
 ## Advanced Usage
 
-Go: https://github.com/TheNocoder/ncSimpleHtmlEditor
+Go: [https://github.com/FranBarInstance/simple-html-editor](https://github.com/FranBarInstance/simple-html-editor)
 
 ## Copyright and License
 
