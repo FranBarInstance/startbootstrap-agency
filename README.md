@@ -9,6 +9,7 @@ Allows you to edit the content of previously created templates or designs, it do
 ## Demo
 
 [https://franbarinstance.github.io/simple-html-editor/demo/agency/](https://franbarinstance.github.io/simple-html-editor/demo/agency/)
+
 [https://franbarinstance.github.io/simple-landing-editor/landing/](https://franbarinstance.github.io/simple-landing-editor/landing/)
 
 ## Basic Usage
