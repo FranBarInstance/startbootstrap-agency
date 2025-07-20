@@ -610,8 +610,8 @@
 
     <!-- ncsedt-implement:before -->
     <div id="ncsedt-implement">
-        <link href="https://cdn.statically.io/gh/thenocoder/ncSimpleHtmlEditor/master/ncsimplehtmleditor.css" rel="stylesheet" />
-        <script src="https://cdn.statically.io/gh/thenocoder/ncSimpleHtmlEditor/master/ncsimplehtmleditor.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FranBarInstance/simple-html-editor@master/simplehtmleditor.min.css">
+        <script src="https://cdn.jsdelivr.net/gh/FranBarInstance/simple-html-editor@master/simplehtmleditor.min.js"></script>
         <script>
             window.addEventListener('DOMContentLoaded', function () {
                 ncSHEditor = new ncSimpleHtmlEditor({
@@ -626,7 +626,7 @@
                                 var link = document.createElement('a');
                                 var ncsedt = document.querySelector('#ncsedt-implement');
 
-                                link.setAttribute('href', 'https://github.com/TheNocoder/startbootstrap-agency');
+                                link.setAttribute('href', 'https://github.com/FranBarInstance/simple-html-editor');
                                 link.setAttribute('target', '_blank');
                                 ncsedt.appendChild(link);
                                 link.click();
